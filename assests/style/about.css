@@ -1,0 +1,126 @@
+.about-section-hero-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 10rem 0rem;
+}
+
+.content-body-about{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+}
+
+.top-content-about{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.left-top-content-about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.img-top-about-content{
+    width: 500px;
+    border: 5px solid #ffc03a;
+   
+}
+
+.img-back-content{
+    position: absolute;
+    z-index: -1;
+    width: 450px;
+    height: 480px;
+    background-color: #fff;
+    right: -1.2rem;
+    bottom: -1.2rem;
+}
+
+/* right */
+
+.right-top-content-about{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    flex-basis: 50%;
+}
+
+.head-top-right-content{
+    color: #ffc03a;
+    font-size: 2.5rem;
+    font-weight: 450;
+    font-family: "Oswald", sans-serif;
+}
+
+.head-second-top-right-content, .description-top-right-content{
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.8rem;
+    width:80%;
+}
+
+/* bottom */
+
+.bottom-content-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 20rem 0rem 0rem 0rem;
+}
+
+.heading-bottom-content{
+    font-family: "Oswald", sans-serif;
+    color: #ffc03a;
+    font-size: 2.5rem;
+    font-weight: 450;
+}
+
+.heading-second-bottom-content{
+    color: #fff;
+    font-weight: 200;
+    font-size: 1.2rem;
+    
+}
+
+.testimonials-content-bottom{
+    padding: 5rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #000;
+}
+
+.heading-testimonials{
+    color: #ffc03a;
+    font-size: 1.5rem;
+}
+
+.description-testimonials{
+    color: #fff;
+    font-weight: 200px;
+    text-align: center;
+    width: 50%;
+    font-weight: 200;
+}
+

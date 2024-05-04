@@ -1,0 +1,34 @@
+#footer{
+    background-color: #000;
+    height: 20vh;
+    width: 100%;
+    bottom: 0;
+    position: relative;
+}
+
+.content-footer-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 4rem 0rem 0rem 0rem;
+}
+
+.icon-footer-content-body{
+    color: #fff;
+    display: flex;
+    gap: 1.2rem;
+}
+
+.icon-footer-content-body a{
+    color:#fff;
+}
+
+.privacy-policy-footer-content-body{
+    color: #fff;
+    display: flex;
+    gap: 0.5rem;
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+}

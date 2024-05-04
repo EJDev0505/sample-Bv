@@ -1,0 +1,75 @@
+.acurrate-honest-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    padding-bottom: 10rem;
+}
+
+.body-content-accurate-honest{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 52%;
+    gap: 4rem;
+
+}
+
+.left-content-accurate-honest{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+   
+}
+
+.heading-honest-content{
+    color: #ffc03a;
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-family: "Oswald", sans-serif;
+}
+
+.description-honest-content{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    
+}
+
+.description-honest-content .head-description{
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+}
+
+.description-honest-content .info-description{
+    color: #fff;
+    font-size: 0.95rem;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.8rem;
+}
+
+.right-content-accurate-honest{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+.accurate-img{
+    border: 5px solid #ffc03a;
+}
+
+.bg-img-accurate{
+    position: absolute;
+    z-index: -1;
+    width: 450px;
+    height: 480px;
+    background-color: #fff;
+    right: -1.2rem;
+    bottom: -1.2rem;
+}
